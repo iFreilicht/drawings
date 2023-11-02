@@ -1,9 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T12:58:11.806Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0" version="22.0.8" etag="ep3O8P3cxvwcH41fXGbP" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-02T13:21:31.449Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/119.0" etag="fiR-Ntii1rbGz0mE_2Iy" version="22.0.8" type="github">
   <diagram name="Page-1" id="FpZX4IgKNyuzZSpRoqc3">
-    <mxGraphModel>
+    <mxGraphModel dx="817" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qGX7xCbg2fsCzP7J_7Qd-2" value=".nix file" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qGX7xCbg2fsCzP7J_7Qd-5" value="Nix Expression" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qGX7xCbg2fsCzP7J_7Qd-6" value="Contains" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qGX7xCbg2fsCzP7J_7Qd-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="460" as="sourcePoint" />
+            <mxPoint x="220" y="480" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qGX7xCbg2fsCzP7J_7Qd-7" value="String" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="370" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qGX7xCbg2fsCzP7J_7Qd-9" value="&lt;div&gt;Boolean&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="430" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qGX7xCbg2fsCzP7J_7Qd-10" value="Function" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="520" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qGX7xCbg2fsCzP7J_7Qd-11" value="Number" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="400" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qGX7xCbg2fsCzP7J_7Qd-12" value="List" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="460" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qGX7xCbg2fsCzP7J_7Qd-13" value="Attr Set" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="490" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qGX7xCbg2fsCzP7J_7Qd-17" value="&lt;pre&gt;&quot;hello&quot;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="450" y="370" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qGX7xCbg2fsCzP7J_7Qd-18" value="&lt;pre&gt;123.7&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="450" y="400" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qGX7xCbg2fsCzP7J_7Qd-19" value="&lt;pre&gt;true&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="450" y="430" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qGX7xCbg2fsCzP7J_7Qd-20" value="&lt;pre&gt;[ 1 2 3 ]&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="450" y="460" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qGX7xCbg2fsCzP7J_7Qd-21" value="&lt;pre&gt;{ a: 1; b: &quot;x&quot;; } &lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="450" y="490" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qGX7xCbg2fsCzP7J_7Qd-24" value="&lt;pre&gt;f = a: b: a + b;&lt;br&gt;&lt;br&gt;g = { a, b }: a + b;&lt;br&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="450" y="520" width="200" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
